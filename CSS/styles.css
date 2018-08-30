@@ -1,49 +1,31 @@
 
-
-
 /*-------Header Code--------*/
-header {
-    top: 0;
-    right: 0;
-    left: 0;
-    background-color: #f2f2f2;
+.header-logo {
+    margin: auto;
+    width: 25%;
+}
+
+.header-brand {
     width: 100%;
-    height: 100px;
-    padding-top: 50px
 }
 
-header .header-brand {
-    font-family: 'Raleway', sans-serif;
-    font-size: 48px;
-    font-weight: 0;
-    color: #111;
-    display: block:
-    margin: 31px 0;
-    text-align: left;
-    padding: 0 20px 0 40px;
-    float: left;
-    line-height: 38px;
-    text-decoration: none;
-}
-
-header nav ul {
-    display: block;
-}
-
-header nav ul li {
-    display: inline-block;
-    float: right;
-    padding: 0 24px;
-}
-
-header nav ul li a {
-    font-family: 'Roboto Condensed', sans-serif;
+.slogan {
     font-size: 18px;
-    color: #111;
-    text-transform: uppercase;
-    text-decoration: none;
+
 }
 
+.main-nav {
+    display: block;
+    text-align: center;
+    word-spacing: 50px;
+    padding-bottom: 20px;
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+}
 /*---------Body Code----------*/
 
 h1 {
@@ -61,8 +43,8 @@ a {
 }
 
 .burgerhero {
-    width: 1200px;
-    height: 700px;
+    width: 75%;
+    height: 750px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -72,17 +54,18 @@ a {
 /*---------Footer Code-------*/
 
 footer {
-    width: calc(100%-80);
+    width: 75%;
     padding: 30px 30px;
-    margin-top 20px;
+    margin-top: 20px;
     background-color: #f2f2f2;
     overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 footer ul {
-    width: content;
     float: left;
-    padding-left: 20px;
+    padding-left: 60px;
 }
 
 footer ul li {

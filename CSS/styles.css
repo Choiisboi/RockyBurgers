@@ -43,7 +43,7 @@ a {
 }
 
 .burgerhero {
-    width: 75%;
+    width: 65%;
     height: 750px;
     display: block;
     margin-left: auto;
@@ -54,7 +54,7 @@ a {
 /*---------Footer Code-------*/
 
 footer {
-    width: 75%;
+    width: 65%;
     padding: 30px 30px;
     margin-top: 20px;
     background-color: #f2f2f2;

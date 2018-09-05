@@ -33,7 +33,7 @@ h1 {
     color: #111;
 }
 
-p {
+.headerslogan {
     text-align: center;
     color: #111;
 }
@@ -66,6 +66,7 @@ footer {
 footer ul {
     float: left;
     padding-left: 60px;
+    padding-right: 200px;
 }
 
 footer ul li {
@@ -77,5 +78,26 @@ footer ul li a {
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 18px;
     color: #111;
-    line-height: 30px;
+    line-height: 37px;
+}
+
+.subform h2 {
+    margin-bottom: 0;
+}
+
+label, input {
+    display: block;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+.socialmediabtns {
+    float: right;
+    padding-right: 60px;
+}
+
+.socialmediabtns a {
+    color: #111;
 }

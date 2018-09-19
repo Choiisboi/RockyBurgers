@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rocky Burgers</title>
+    <link rel="stylesheet" href="../CSS/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:700|Roboto+Condensed" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+</head>
+
+<header>
+    <div class="header-logo">
+        <a href="index.html"><img src="../pics/rockeyburgerslogo.png" class="header-brand" alt="Rocky Burgers Logo"></a>
+    </div>
+    <div class="slogan">
+        <p class="headerslogan">&#10077;Best Quality Burgers in Town. Off the Charts!&#10078;</p>
+    </div>
+    <div class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="Menu.html">Menu</a>
+        <a href="contact.html">Contact</a>
+        <a href="about.html">About</a>
+        <a href="#">Jobs</a>
+    </div>
+</header>
+
+<body>
+<div class="about">
+<h2 class="aboutslogan">Best Quality Burgers in town. Off the charts.</h2>
+
+<div class="abouttext">
+    <p>Step into any <strong>ROCKEY BURGERS</strong>, and you’ll notice we’re different. From our famous (free) house-made pickles,
+    to the hand-painted signage, to our cheerful staff, we build our restaurants like we build our burgers–sustainably,
+    locally, and with an unwavering commitment to quality.</p>
+</div>
+
+<div class="abouttext">
+    <p>Fresh, quality produce, meat, dairy and buns, sourced from partners located just miles from our restaurants,
+        are the ingredients to making the perfect burger. This commitment to creating the best possible food for our guests
+        is a direct reflection of our promise of creating fast food burgers using slow food values.</p>
+</div>
+
+<div class="abouttext">
+    <p class="middleman">Bite into any Super burger, and taste the difference. Ourburgers, fries, and shakes are made with the finest, freshestingredients available.</p>
+</div>
+
+<div class="abouttext">
+    <p>All our beefisRockey Farms, humanely-raised, vegetarian-fed, ground fresh daily, and sourced from a family-owned ranch.</p>
+</div>
+<div class="abouttext">
+    <p>All of ourshakes and cones are made with organic cream from Rockey Creamery,a small, family-owned, organicfarmlocated South of Nephi, Utah.</p>
+</div>
+
+<div class="abouttext">
+    <p>All of ourshakes and cones are made with organic cream from Rockey Creamery,a small, family-owned, organicfarmlocated South of Nephi, Utah.</p>
+</div>
+
+<div class="abouttext">
+    <p>The potatoes we use to make our French fries are made from potatoes grown in North America by growers who are required to
+        identify the genetic source of their seed potatoes. We do not work with genetically modified potato varieties.
+        Our potatoes are processed fresh off the field and delivered to us without any modifications. We proudly serve Sir Kensington ketchup.</p>
+</div>
+</div>
+
+<h2 class="aboutslogan">Frequently Asked Questions</h2>
+<button class="hiddenbtn" onclick="myFunction()">Why is Rocky Burgers so expensive?</button>
+<div id="hidden">
+   <p class="hiddentext">We focus on making meals with thebest and freshest ingredients, like humanely-raised
+    beef that is ground fresh each day, organic chicken, and Rockey Family Dairy’s organic
+    cream for our ice cream cones, sundaes and shakes.
+   </p>
+    <p class="hiddentext">Our commitment to freshnessand quality means higher prices than you’d find at traditional
+        fast-food burger chains. It also means food that tastes way better — because, well, it is.
+    </p>
+</div>
+
+<button class="hiddenbtn" onclick="myBunction()">Where does your beef come from?</button>
+<div id="bidden">
+    <p class="hiddentext">We source our humanely-raised, vegetarian-fed beef from local, family-owned ranches.
+        We use an 85% to 15% protein to fat blend, a mixture of the lean protein and the marbling found on in a cut
+        of steak for our ground beef. The mixture is ground daily, and thus, our burgers taste so amazing.
+    </p>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+    function myFunction() {
+        var x = document.getElementById("hidden");
+        if (x.style.display === "none") {
+            x.style.display = "block";
+        } else {
+            x.style.display = "none";
+        }
+    }
+
+    function myBunction() {
+        var x = document.getElementById("bidden");
+        if (x.style.display === "none") {
+            x.style.display = "block";
+        } else {
+            x.style.display = "none";
+        }
+    }
+</script>
+</body>
+
+<footer>
+    <div class="footer">
+        <div class="flex1">
+            <div class="footermenu">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Jobs </a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="flex2">
+            <div class="subform">
+                <h2 class="sub">Subscribe Today!</h2>
+                <p class="subdis">Don't miss out on discounts!</p>
+                <form>
+                    <label>
+                        <input type="text" name="firstname" placeholder="Full name">
+                    </label>
+                    <label>
+                        <input type="text" name="emailaddress" placeholder="Email Address">
+                    </label>
+                    <label>
+                        <input type="text" name="phonenumber" placeholder="Phone number">
+                    </label>
+                </form>
+                <input type="submit" value="Submit" class="subsubmit">
+            </div>
+        </div>
+
+        <div class="flex3">
+            <div class="socialmediabtns">
+                <div>
+                    <a href="http://www.twitter.com/keyburgers"><i class="fab fa-twitter fa-3x"></i></a>
+                </div>
+
+                <div>
+                    <a href="http://www.facebook.com/keyburgers"><i class="fab fa-facebook-f fa-3x"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</html>

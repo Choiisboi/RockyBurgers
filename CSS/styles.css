@@ -141,6 +141,51 @@ a {
     font-size: 20px;
     margin-top: 10px;
 }
+
+/*--------jobs code-------*/
+.jobsforms {
+    display: flex;
+    width: 70%;
+    align-content: center;
+    margin: 0 auto;
+}
+
+.jobsforms div {
+    margin: 0 auto;
+}
+
+.inputbox {
+    width: 250px;
+}
+
+.states {
+    width: 254px;
+    margin-top: 5px;
+}
+
+.jobxp {
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+ }
+.jobbtn{
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 15px;
+}
+.jobsub {
+    width: 20%;
+    height: 30px;
+    border: none;
+}
+
+.jobsub:hover {
+    background-color: #F05054;
+    color: white;
+}
+
+
 /*---------Footer Code-------*/
 
 footer {

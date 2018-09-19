@@ -82,6 +82,18 @@ a {
     padding-right: 20px;
     margin-right: 10px;
 }
+
+/*------------Contact Code------*/
+.maps {
+    width: 100%;
+}
+
+.mapcontainer {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: 0 auto;
+}
 /*---------Footer Code-------*/
 
 footer {
